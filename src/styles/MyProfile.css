@@ -1,0 +1,247 @@
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.MainProfileContainer {
+  margin: auto;
+  margin-top: 66px;
+  width: 85%;
+}
+
+.PicNameContainer {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.PicName {
+  display: flex;
+  align-items: center;
+}
+
+.Pic {
+  height: 130px;
+  width: 130px;
+  background-color: #d99bff;
+  border-radius: 100%;
+  align-items: end;
+  justify-content: right;
+  display: flex;
+}
+
+.PicEdit {
+  border-radius: 100%;
+  background-color: #58a7fe;
+  height: 33px;
+  width: 33px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PicEdit:hover {
+  background-color: #3f8be0;
+}
+
+.Name {
+  margin-left: 28px;
+}
+
+.Username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Email {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.Icon {
+  background-color: rgb(81, 140, 192);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.EditButtonDesktop {
+  align-items: center;
+  font-family: Poppins;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.EditButtonMobile {
+  align-items: center;
+  font-family: Poppins;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  display: none;
+}
+
+.EditButtonDesktop:hover {
+  background-color: rgb(99, 93, 93);
+}
+
+.EditButtonDesktop:hover {
+  background-color: rgb(99, 93, 93);
+}
+
+.InfoContainer {
+  margin: 22px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Collection {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-row-gap: 18px;
+}
+
+.Item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.Item p {
+  width: 220px;
+}
+
+.BottomSection {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PremiumContainer {
+  width: 100%;
+  margin: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Premium {
+  border: none;
+  width: 180px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: #58a7fe;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Premium:hover {
+  background-color: #3f8be0;
+}
+
+.MyProfileYellowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  border-radius: 20px;
+  border: 2px solid #ffd233;
+  background-color: rgba(242, 201, 76, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.MyProfileGrayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  border-radius: 20px;
+  border: 2px solid #8b949e;
+  background-color: rgba(217, 217, 217, 0.2);
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+  .EditButtonDesktop {
+    align-items: center;
+    font-family: Poppins;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    display: none;
+  }
+
+  .EditButtonMobile {
+    align-items: center;
+    font-family: Poppins;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .Collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .Item {
+    margin-top: 10px;
+  }
+
+  .PicNameContainer {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+}
